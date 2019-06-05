@@ -13,7 +13,7 @@ var Word = function(secretWord){
     this.pushWord = function(){
         for (var i = 0; i < secretWord.length; i++) {
             var letterObj = new Letter(secretWord[i]);
-            this.lettersArray.push(letterObj);
+            this.lettersArray.push(letter);
             //console.log(this.lettersArray); 
         };
     };
